@@ -1,2 +1,6 @@
 # Scientific_Calculator
 Vanilla JavaScript Scientific Calculator
+_________________________________________
+_________________________________________
+
+To begin run index.html in browser
