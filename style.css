@@ -1,0 +1,206 @@
+/* CSS Document */
+
+body {
+    background-color: #444;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    width: 100%;
+    margin: auto;
+}
+
+::selection {
+    background: rgba(204,0,204,0.6);
+}
+
+::-moz-selection {
+    background: rgba(204,0,204,0.6);
+}
+
+/* button rows */
+.row {
+    display: flex;
+}
+
+.row0 {
+    justify-content: flex-end;
+}
+
+.calculator-frame {
+    /**/
+    background: url(http://gdurl.com/buqF) center no-repeat;
+    background-size: 100% 100%; /**/
+    height: 680px;
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.display {
+    position: relative;
+    top: 35px;
+    text-align: right;
+    border: solid #222;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+    color: black;
+    height: 40px;
+    width: 385px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 3px;
+    position: relative;
+    left: 50px;
+    font-size: 2em;
+}
+
+/* Calculator Buttons Section */
+.button-grid {
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.button {
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid #222;
+    height: 25px;
+    width: 45px;
+    padding: 8px;
+}
+
+    .button:hover {
+        box-shadow: 0 0 20px 3px #909 inset;
+    }
+
+    .button:active {
+        box-shadow: 0 0 30px 3px #222 inset;
+    }
+
+.buttonsqr {
+    background-image: url(http://gdurl.com/bz6k);
+}
+
+.buttonpi {
+    background-image: url(http://gdurl.com/PpZR);
+}
+
+.buttonsqrt {
+    background-image: url(http://gdurl.com/VpgW);
+}
+
+.buttonsin {
+    background-image: url(http://gdurl.com/ZDGz);
+}
+
+.buttoncos {
+    background-image: url(http://gdurl.com/hO_E);
+}
+
+.buttontan {
+    background-image: url(http://gdurl.com/LhKL);
+}
+
+.buttonarc {
+    background-image: url(http://gdurl.com/UuZz);
+}
+
+.buttonmod {
+    background-image: url(http://gdurl.com/aS48);
+}
+
+.buttonrand {
+    background-image: url(http://gdurl.com/6zQL);
+}
+
+.buttonrad {
+    background-image: url(http://gdurl.com/8LDUk);
+}
+
+.buttondeg {
+    background-image: url(http://gdurl.com/l8sk);
+}
+
+.button7 {
+    background-image: url(http://gdurl.com/ywxi);
+}
+
+.button8 {
+    background-image: url(http://gdurl.com/FYB2);
+}
+
+.button9 {
+    background-image: url(http://gdurl.com/oxJl);
+}
+
+.button4 {
+    background-image: url(http://gdurl.com/cL2F);
+}
+
+.button5 {
+    background-image: url(http://gdurl.com/eXnQ);
+}
+
+.button6 {
+    background-image: url(http://gdurl.com/wsnH);
+}
+
+.buttonac {
+    background-image: url(http://gdurl.com/nGXE);
+}
+
+.buttonmul {
+    background-image: url(http://gdurl.com/mlQ8);
+}
+
+.button1 {
+    background-image: url(http://gdurl.com/nRcr);
+}
+
+.button2 {
+    background-image: url(http://gdurl.com/WlKQ);
+}
+
+.button3 {
+    background-image: url(http://gdurl.com/772W);
+}
+
+.buttondiv {
+    background-image: url(http://gdurl.com/0Whg);
+}
+
+.button0 {
+    background-image: url(http://gdurl.com/Fd2O);
+}
+
+.buttondec {
+    background-image: url(http://gdurl.com/HkTl);
+}
+
+.buttonequals {
+    background-image: url(http://gdurl.com/VP3o);
+}
+
+.buttonadd {
+    background-image: url(http://gdurl.com/tHtK);
+}
+
+.buttonsub {
+    background-image: url(http://gdurl.com/oxDG);
+}
+
+.buttonmplus {
+    background-image: url(http://gdurl.com/4OGm);
+}
+
+.buttonmclr {
+    background-image: url(http://gdurl.com/eBiX);
+}
+
+.buttonmrec {
+    background-image: url(http://gdurl.com/kgRL);
+}

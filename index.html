@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<!-- Author: Joseph Davidson -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Jojacino's Simple Scientific Calculator</title>
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+    <body>
+
+        <div class="calculator-frame">
+
+            <input name="display" maxlength="21" placeholder="0" class="display">
+
+            <div class="button-grid">
+                <!-- button grid -->
+                <div class="row row0">
+                    <div onclick="javascript: Calc.ac()" class="button buttonac"> </div>
+                </div>
+                <div class="row row1">
+                    <div onclick="javascript: Calc.mplus()" class="button buttonmplus"> </div>
+                    <div onclick="javascript: Calc.mclr()" class="button buttonmclr"> </div>
+                    <div onclick="javascript: Calc.mrec()" class="button buttonmrec"> </div>
+                    <div onclick="javascript: Calc.sqr()" class="button buttonsqr"> </div>
+                    <div onclick="javascript: Calc.sqrt()" class="button buttonsqrt"> </div>
+                    <div onclick="javascript: Calc.pi()" class="button buttonpi"> </div>
+                </div>
+                <div class="row row2">
+                    <div onclick="javascript: Calc.add_val('7')" class="button button7"> </div>
+                    <div onclick="javascript: Calc.add_val('8')" class="button button8"> </div>
+                    <div onclick="javascript: Calc.add_val('9')" class="button button9"> </div>
+                    <div onclick="javascript: Calc.rad()" class="button buttonrad"> </div>
+                    <div onclick="javascript: Calc.tan()" class="button buttontan"> </div>
+                    <div onclick="javascript: Calc.atan()" class="button buttonarc"> </div>
+                </div>
+                <div class="row row3">
+                    <div onclick="javascript: Calc.add_val('4')" class="button button4"> </div>
+                    <div onclick="javascript: Calc.add_val('5')" class="button button5"> </div>
+                    <div onclick="javascript: Calc.add_val('6')" class="button button6"> </div>
+                    <div onclick="javascript: Calc.deg()" class="button buttondeg"> </div>
+                    <div onclick="javascript: Calc.sin()" class="button buttonsin"> </div>
+                    <div onclick="javascript: Calc.cos()" class="button buttoncos"> </div>
+                </div>
+                <div class="row row4">
+                    <div onclick="javascript: Calc.add_val('1')" class="button button1"> </div>
+                    <div onclick="javascript: Calc.add_val('2')" class="button button2"> </div>
+                    <div onclick="javascript: Calc.add_val('3')" class="button button3"> </div>
+                    <div onclick="javascript: Calc.add_val('+')" class="button buttonadd"> </div>
+                    <div onclick="javascript: Calc.add_val('-')" class="button buttonsub"> </div>
+                    <div onclick="javascript: Calc.rand()" class="button buttonrand"> </div>
+                </div>
+                <div class="row row5">
+                    <div onclick="javascript: Calc.add_val('.')" class="button buttondec"> </div>
+                    <div onclick="javascript: Calc.add_val('0')" class="button button0"> </div>
+                    <div onclick="javascript: Calc.equals()" class="button buttonequals"> </div>
+                    <div onclick="javascript: Calc.add_val('*')" class="button buttonmul"> </div>
+                    <div onclick="javascript: Calc.add_val('/')" class="button buttondiv"> </div>
+                    <div onclick="javascript: Calc.add_val('%')" class="button buttonmod"> </div>
+                </div>
+                <!-- end of button grid -->
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
