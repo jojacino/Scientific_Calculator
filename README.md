@@ -1,6 +1,10 @@
 # Scientific_Calculator
-Vanilla JavaScript Scientific Calculator
-_________________________________________
+JavaScript Scientific Calculator
 _________________________________________
 
-To begin run index.html in browser
+To View click link below
+
+https://compassionate-bohr-527437.netlify.app
+
+
+![](https://i.ibb.co/PMxhYw7/calc.png)
